@@ -1,0 +1,149 @@
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0); 
+    border: 3px solid black;
+    padding: 5px 5px;
+}
+.encabezado{
+    width: 95%;
+    height: 20%;
+    background-color: rgb(99, 22, 99);
+    border: 5px solid black;
+    display: flex;
+}
+.cuerpo{
+    width: 95%;
+    height: 130%;
+    background-color: rgb(155, 5, 147);
+    border: 5px solid black;
+}
+.pie{
+    width: 95%;
+    height: 20%;
+    background-color: rgb(97, 16, 117);
+    border: 5px solid black;
+}
+.logo{
+    width: 20%;
+    height: 95%;
+    margin: 1px 1px 1px 1px;
+}
+.mensaje-encabezado{
+    width: 40%;
+    height: 95%;
+}
+.menu{
+    width: 40%;
+    height: 95%;
+    background-color: rgb(69, 11, 92);
+    border: 2px solid black;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li:hover{
+    transform: scale(1.05);
+}
+.cuerpo .tabla{
+    border: 2px solid black;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    width: 95%;
+    height: 85%;
+}
+.cuerpo .tabla tbody tr td{
+    width: 20%;
+    height: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+.video{
+    transition: transform .2s; 
+    width: 50%;
+    height: 80%;
+    cursor: pointer;
+}
+.video:hover{
+    transform: scale(1.05); 
+}
+.mother{
+    transition: transform .2s;
+    width: 50%;
+    height: 80%;
+    cursor: pointer;
+}
+.mother:hover{
+    transform: scale(1.05);
+}
+.gabinete{
+    transition: transform .2s;
+    width: 50%;
+    height: 70%;
+    cursor: pointer;
+}
+.gabinete:hover{
+    transform: scale(1.05);
+}
+.mouse{
+    transition: transform .2s;
+    width: 50%;
+    height: 60%;
+    cursor: pointer;
+}
+.mouse:hover{
+    transform: scale(1.05);
+}
+.teclado{
+    transition: transform .2s;
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+}
+.teclado:hover{
+    transform: scale(1.05);
+}
+.parlantes{
+    transition: transform .2s;
+    width: 50%;
+    height: 80%;
+    cursor: pointer;
+}
+.parlantes:hover{
+    transform: scale(1.05);
+}
+.monitor{
+    transition: transform .2s;
+    width: 60%;
+    height: 70%; 
+    cursor: pointer;
+}
+.monitor:hover{
+    transform: scale(1.05);
+}
+.ram{
+    transition: transform .2s;
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+}
+.ram:hover{
+    transform: scale(1.05);
+}
+.fuente{
+    transition: transform .2s;
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+}
+.fuente:hover{
+    transform: scale(1.05);
+}

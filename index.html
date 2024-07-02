@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>mi pagina de hardware</title>
+</head>
+<body>
+    <div class="contenedor">
+        <section class="encabezado">
+            <img src="logo.png" alt="imagen-logo" class="logo">
+            <p class="mensaje-encabezado">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ipsa illo maxime dignissimos nostrum harum provident, cum eveniet unde, consectetur cupiditate? Earum, laudantium? Omnis, eos voluptates. Excepturi delectus alias neque.</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="http://">hardware - pc - notebook</a></li>
+                    <li><a href="http://">software</a></li>
+                    <li><a href="http://">contactos</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="cuerpo">
+            <table class="tabla">
+                <tbody>
+                    <tr><td><img src="./imagenes/placavideo.jpg" alt="video" class="video" id="video"></td><td><img src="./imagenes/placamadre.jpg" alt="mother" class="mother" id="mother"></td><td><img src="./imagenes/gabinete.jpg" alt="gabinete" class="gabinete" id="gabinete"></td></tr>
+                    <tr><td><img src="./imagenes/mouse.jpg" alt="mouse" class="mouse" id="mouse"></td><td><img src="./imagenes/teclado.jpg" alt="teclado" class="teclado" id="teclado"></td><td><img src="./imagenes/parlantes.jpg" alt="parlantes" class="parlantes" id="parlantes"></td></tr>
+                    <tr><td><img src="./imagenes/monitor.jpg" alt="monitor" class="monitor" id="monitor"></td><td><img src="./imagenes/ram.jpg" alt="ram" class="ram" id="ram"></td><td><img src="./imagenes/fuente.jpg" alt="fuente" class="fuente" id="fuente"></td></tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section class="pie">
+
+        </section>
+    </div>
+    <script>
+        const video = document.getElementById('video');
+        video.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "RTX 4090Ti",
+         text: "4ta Gen - 16GB VRam",
+         footer: '<a href="https://www.nvidia.com/es-la/geforce/graphics-cards/40-series/rtx-4090/" target="_blank">Mas informacion</a>'
+        });
+        });
+        const mother = document.getElementById('mother');
+        mother.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Mother Gigabyte A520M K",
+         text: "2 slots de ram - socket AM4",
+         footer: '<a href="https://www.gigabyte.com/es/Motherboard/A520M-K-rev-10#kf" target="_blank">Mas informacion</a>'
+        });
+        });
+        const gabinete = document.getElementById('gabinete');
+        gabinete.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Gabinete Asus Tuf Gaming Gt301",
+         text: "RGB - Cristal templado",
+         footer: '<a href="https://www.asus.com/latin/motherboards-components/cases/tuf-gaming/tuf-gaming-gt301/" target="_blank">Mas informacion</a>'
+        });
+        });
+        const mouse = document.getElementById('mouse');
+        mouse.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Mouse Logitech G203",
+         text: "RGB - 6 Botones",
+         footer: '<a href="https://www.logitechg.com/es-ar/products/gaming-mice/g203-lightsync-rgb-gaming-mouse.910-005795.html" target="_blank">Mas informacion</a>'
+        });
+        });
+        const teclado = document.getElementById('teclado');
+        teclado.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Teclado Gadnic",
+         text: "Mecanico - ZT800",
+         footer: '<a href="https://www.gadnic.com.ar/mouse-y-teclados/teclado-gamer-mecanico-gadnic-zt800-rgb-tkl-switch-outemu-blue" target="_blank">Mas informacion</a>'
+        });
+        });
+        const parlantes = document.getElementById('parlantes');
+        parlantes.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Parlantes Noga NG-106",
+         text: "USB Hi-Fi",
+         footer: '<a href="https://noganet.ar/productos/ng-106-mini-parlantes-usb-hi-fi/" target="_blank">Mas informacion</a>'
+        });
+        });
+        const monitor = document.getElementById('monitor');
+        monitor.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Monitor P19B-G4",
+         text: "Led - 18,5 pulgadas",
+         footer: '<a href="https://www.hp.com/ar-es/shop/monitor-hp-p19b-g4-de-18-5-9ty83aa.html" target="_blank">Mas informacion</a>'
+        });
+        });
+        const ram = document.getElementById('ram');
+        ram.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Ram Kingston Fury Beast",
+         text: "8GB - DDR4",
+         footer: '<a href="https://www.kingston.com/latam/memory/gaming/kingston-fury-beast-ddr4-rgb-memory" target="_blank">Mas informacion</a>'
+        });
+        });
+        const fuente = document.getElementById('fuente');
+        fuente.addEventListener('click', function()  {
+            Swal.fire({
+          icon: "info",
+          title: "Fuente de poder PSU-200",
+         text: "Cable mallado - RGB",
+         footer: '<a href="https://voragolive.com/detalle-producto/178/psu-200_fuente_de_poder_gamer" target="_blank">Mas informacion</a>'
+        });
+        });
+    </script>
+</body>
+</html>
